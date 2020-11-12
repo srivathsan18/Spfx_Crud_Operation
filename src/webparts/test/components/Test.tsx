@@ -4,7 +4,9 @@ import { ITestProps } from './ITestProps';
 import { escape } from '@microsoft/sp-lodash-subset';
 import { TextField, DatePicker, Button } from 'office-ui-fabric-react';
 
-import { SPHttpClient,SPHttpClientResponse } from '@microsoft/sp-http'
+import { SPHttpClient,SPHttpClientResponse } from '@microsoft/sp-http';
+
+// Test Purpose 
 
 
 export default class Test extends React.Component<ITestProps, ITestState> {
