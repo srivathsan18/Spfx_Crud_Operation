@@ -11,7 +11,7 @@ import { SPHttpClient,SPHttpClientResponse } from '@microsoft/sp-http';
 
 export default class Test extends React.Component<ITestProps, ITestState> {
 
-  constructor(props: ITestProps,state: ITestState) {
+  constructor(props: ITestProps) {
     super(props);
     this.state = {
      Title:"",

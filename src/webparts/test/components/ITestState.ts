@@ -1,4 +1,4 @@
-class ITestState 
+interface ITestState 
 {
     Title:string;
     ItemId:number;
